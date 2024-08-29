@@ -7,6 +7,7 @@ export default function Home() {
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
 
+  //funktion för att använda browserns geo api. Om den finns kallas success-funktionen och skickar ner position objekt till den
   function getCurrentPosition() {
     navigator.geolocation.getCurrentPosition(success);
   }

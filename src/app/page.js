@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 
+const api_key = "1865697a58b84a44b469a378afb64499";
+
 export default function Home() {
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
